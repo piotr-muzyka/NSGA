@@ -3,6 +3,7 @@
 
 #include <Gui.h>
 #include <memory>
+#include <exprtk.hpp>
 
 class QtTerminal : public Gui
 {

@@ -20,8 +20,10 @@ SOURCES += main.cpp \
 
 HEADERS += \
     interfaces/Gui.h \
-    gui/terminal/QtTerminal.h
+    gui/terminal/QtTerminal.h \
+    libraries/exprtk.hpp
 
 # add new folders here
 INCLUDEPATH += interfaces/
 INCLUDEPATH += gui/terminal/
+INCLUDEPATH += libraries/
