@@ -1,10 +1,9 @@
 #include <memory>
-#include <QtTerminal.h>
+#include <Qt4Window.h>
 
 int main()
 {
-    std::unique_ptr<Gui> app(new QtTerminal);
-
+    Gui* app = new Qt4Window();
     app->init();
     app->run();
 

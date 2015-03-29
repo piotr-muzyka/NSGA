@@ -4,26 +4,37 @@
 #
 #-------------------------------------------------
 
-QT       += core
-
-QT       -= gui
+QT       += core  gui
+greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
 TARGET = NSGA-II
-CONFIG   += console
-CONFIG   -= app_bundle
 
 TEMPLATE = app
-QMAKE_CXXFLAGS += -std=c++11
+
+FORMS += \
+    gui/qt4/forms/mainwindow.ui
 
 SOURCES += main.cpp \
-    gui/terminal/QtTerminal.cpp
+    gui/terminal/QtTerminal.cpp \
+    math/ExpressionParser.cpp \
+    gui/qt4/Qt4Window.cpp \
+    gui/qt4/MainWindow.cpp \
+    gui/qt4/MathGlDrawer.cpp
 
 HEADERS += \
     interfaces/Gui.h \
     gui/terminal/QtTerminal.h \
-    libraries/exprtk.hpp
+    libraries/exprtk.hpp \
+    math/ExpressionParser.h \
+    gui/qt4/Qt4Window.h \
+    gui/qt4/MainWindow.h \
+    gui/qt4/MathGlDrawer.h
 
 # add new folders here
 INCLUDEPATH += interfaces/
 INCLUDEPATH += gui/terminal/
+INCLUDEPATH += gui/qt4/
 INCLUDEPATH += libraries/
+INCLUDEPATH += math/
+
+LIBS += -lmgl -lmgl-qt
