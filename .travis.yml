@@ -1,11 +1,8 @@
 language: cpp
 before_install:
+  - sudo add-apt-repository ppa:kalakris/cmake
   - sudo apt-get update
-  - sudo apt-get install libqt4-dev qt4-qmake
-  - sudo apt-get remove cmake
-  - wget http://www.cmake.org/files/v2.8/cmake-2.8.9.tar.gz
-  - tar xzf cmake-2.8.9.tar.gz && cd cmake-2.8.9 && ./configure --prefix=/opt/cmake && make && sudo make install && cd ..
-  - sudo ldconfig
+  - sudo apt-get install libqt4-dev qt4-qmake cmake
   - chmod u+x libraries/build_libs.sh
   - cd libraries && ./build_libs.sh && cd ..
 
