@@ -8,8 +8,9 @@ QT       += core  gui
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
 TARGET = NSGA-II
-
 TEMPLATE = app
+
+QMAKE_CXXFLAGS += -std=c++0x
 
 FORMS += \
     gui/qt4/forms/mainwindow.ui
@@ -38,3 +39,6 @@ INCLUDEPATH += libraries/
 INCLUDEPATH += math/
 
 LIBS += -lmgl -lmgl-qt
+
+OTHER_FILES += \
+    .travis.yml

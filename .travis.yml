@@ -4,7 +4,10 @@ before_install:
   - sudo apt-get install libqt4-dev qt4-qmake libmgl-dev libmgl-qt*
 
 script:
+  - pwd
+  - ls -l /usr/include
   - ln -s /usr/include/mgl libraries/mgl2
+  - ls -l libraries/mgl2/
   - qmake -project
   - qmake NSGA-II.pro
   - make
