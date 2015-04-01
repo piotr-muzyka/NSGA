@@ -1,2 +1,0 @@
-/usr/bin/ar cr libmgl-qt4.a  CMakeFiles/mgl-qt4-static.dir/__/qt.cpp.o CMakeFiles/mgl-qt4-static.dir/__/__/include/mgl2/moc_qmathgl.cxx.o
-/usr/bin/ranlib libmgl-qt4.a
