@@ -1,0 +1,9 @@
+language: cpp
+before_install:
+  - sudo apt-get update
+  - sudo apt-get install libqt4-dev qt4-qmake libmgl-dev
+
+script:
+  - qmake -project
+  - qmake NSGA-II.pro
+  - make
