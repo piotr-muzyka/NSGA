@@ -2,7 +2,7 @@ language: cpp
 before_install:
   - sudo add-apt-repository ppa:kalakris/cmake -y
   - sudo apt-get update
-  - sudo apt-get install libqt4-dev qt4-qmake cmake -y
+  - sudo apt-get install libqt4-dev qt4-qmake cmake libhdf4-0 libgsl0-dev libgsl0ldbl libwxgtk2.8-0 libwxbase2.8-0 libfltk1.3 freeglut3 -y
   - chmod u+x libraries/build_libs.sh
   - cd libraries && ./build_libs.sh && cd ..
 
