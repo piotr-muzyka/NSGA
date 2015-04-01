@@ -6,7 +6,7 @@ before_install:
  # Install QT4
   - sudo apt-get install libqt4-dev qt4-qmake -y
  # Install MathGl dependencies
-  - sudo apt-get install libmgl-dev -y
+  - sudo apt-get install libmgl-dev libmgl-qt -y
  # Change g++ version to support c++11 and new cmake
   - sudo apt-get install cmake gcc-4.9 g++-4.9 -y
   - sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-4.6 60 --slave /usr/bin/g++ g++ /usr/bin/g++-4.6
