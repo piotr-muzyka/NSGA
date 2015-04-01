@@ -1,7 +1,7 @@
 language: cpp
 before_install:
   - sudo apt-get update
-  - sudo apt-get install libqt4-dev qt4-qmake libmgl-dev
+  - sudo apt-get install libqt4-dev qt4-qmake libmgl-dev libmgl-qt*
 
 script:
   - qmake -project
