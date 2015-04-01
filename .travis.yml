@@ -2,6 +2,11 @@ language: cpp
 before_install:
   - sudo apt-get update
   - sudo apt-get install libqt4-dev qt4-qmake
+  - wget http://www.cmake.org/files/v2.8/cmake-2.8.9.tar.gz
+  - tar xzf cmake-2.8.9.tar.gz && cd cmake-2.8.9
+  - ./configure --prefix=/opt/cmake
+  - make && sudo make install
+  - sudo ldconfig
 
 script:
   - chmod u+x libraries/build_libs.sh
