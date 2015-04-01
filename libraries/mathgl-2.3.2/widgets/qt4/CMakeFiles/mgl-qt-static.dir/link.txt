@@ -1,0 +1,2 @@
+/usr/bin/ar cr libmgl-qt.a  CMakeFiles/mgl-qt-static.dir/__/qt.cpp.o CMakeFiles/mgl-qt-static.dir/__/__/include/mgl2/moc_qmathgl.cxx.o
+/usr/bin/ranlib libmgl-qt.a

@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/media/pjakubow/Data/Documents/Automatyka i Robotyka/II stopien/Semestr I/Optimization Theory/NSGA/libraries/mathgl-2.3.2/utils/make_pas.cpp
+stdio.h
+-
+string.h
+-
+

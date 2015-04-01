@@ -38,7 +38,8 @@ INCLUDEPATH += gui/qt4/
 INCLUDEPATH += libraries/
 INCLUDEPATH += math/
 
-LIBS += -lmgl -lmgl-qt
+LIBS += -Llibraries -lmgl -lmgl-qt
 
 OTHER_FILES += \
-    .travis.yml
+    .travis.yml \
+    libraries/build_libs.sh

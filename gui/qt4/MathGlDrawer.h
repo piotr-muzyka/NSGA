@@ -1,7 +1,7 @@
 #ifndef MATHGLDRAWER_H
 #define MATHGLDRAWER_H
 
-#include <mgl/qt.h>
+#include <mgl2/qt.h>
 #include <ExpressionParser.h>
 
 class MathGlDrawer : public mglDraw

@@ -1,0 +1,1 @@
+/usr/bin/c++    -fopenmp -O3 -DNDEBUG    CMakeFiles/mglconv.dir/mglconv.cpp.o  -o mglconv -rdynamic ../src/libmgl.so.7.4.0 -lGLU -lGL -lX11 -lXext -lpng -lz -lm -Wl,-rpath,"/media/pjakubow/Data/Documents/Automatyka i Robotyka/II stopien/Semestr I/Optimization Theory/NSGA/libraries/mathgl-2.3.2/src:" 

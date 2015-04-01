@@ -1,0 +1,974 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/media/pjakubow/Data/Documents/Automatyka i Robotyka/II stopien/Semestr I/Optimization Theory/NSGA/libraries/mathgl-2.3.2/src/addon.cpp
+stdarg.h
+-
+io.h
+-
+direct.h
+-
+unistd.h
+-
+string.h
+-
+mgl2/addon.h
+/media/pjakubow/Data/Documents/Automatyka i Robotyka/II stopien/Semestr I/Optimization Theory/NSGA/libraries/mathgl-2.3.2/src/mgl2/addon.h
+mgl2/data.h
+/media/pjakubow/Data/Documents/Automatyka i Robotyka/II stopien/Semestr I/Optimization Theory/NSGA/libraries/mathgl-2.3.2/src/mgl2/data.h
+
+/media/pjakubow/Data/Documents/Automatyka i Robotyka/II stopien/Semestr I/Optimization Theory/NSGA/libraries/mathgl-2.3.2/src/axis.cpp
+time.h
+-
+ctype.h
+-
+mgl2/data.h
+/media/pjakubow/Data/Documents/Automatyka i Robotyka/II stopien/Semestr I/Optimization Theory/NSGA/libraries/mathgl-2.3.2/src/mgl2/data.h
+mgl2/canvas.h
+/media/pjakubow/Data/Documents/Automatyka i Robotyka/II stopien/Semestr I/Optimization Theory/NSGA/libraries/mathgl-2.3.2/src/mgl2/canvas.h
+mgl2/prim.h
+/media/pjakubow/Data/Documents/Automatyka i Robotyka/II stopien/Semestr I/Optimization Theory/NSGA/libraries/mathgl-2.3.2/src/mgl2/prim.h
+
+/media/pjakubow/Data/Documents/Automatyka i Robotyka/II stopien/Semestr I/Optimization Theory/NSGA/libraries/mathgl-2.3.2/src/base.cpp
+mgl2/font.h
+/media/pjakubow/Data/Documents/Automatyka i Robotyka/II stopien/Semestr I/Optimization Theory/NSGA/libraries/mathgl-2.3.2/src/mgl2/font.h
+mgl2/base.h
+/media/pjakubow/Data/Documents/Automatyka i Robotyka/II stopien/Semestr I/Optimization Theory/NSGA/libraries/mathgl-2.3.2/src/mgl2/base.h
+mgl2/eval.h
+/media/pjakubow/Data/Documents/Automatyka i Robotyka/II stopien/Semestr I/Optimization Theory/NSGA/libraries/mathgl-2.3.2/src/mgl2/eval.h
+
+/media/pjakubow/Data/Documents/Automatyka i Robotyka/II stopien/Semestr I/Optimization Theory/NSGA/libraries/mathgl-2.3.2/src/base_cf.cpp
+mgl2/font.h
+/media/pjakubow/Data/Documents/Automatyka i Robotyka/II stopien/Semestr I/Optimization Theory/NSGA/libraries/mathgl-2.3.2/src/mgl2/font.h
+mgl2/base_cf.h
+/media/pjakubow/Data/Documents/Automatyka i Robotyka/II stopien/Semestr I/Optimization Theory/NSGA/libraries/mathgl-2.3.2/src/mgl2/base_cf.h
+mgl2/base.h
+/media/pjakubow/Data/Documents/Automatyka i Robotyka/II stopien/Semestr I/Optimization Theory/NSGA/libraries/mathgl-2.3.2/src/mgl2/base.h
+stdarg.h
+-
+
+/media/pjakubow/Data/Documents/Automatyka i Robotyka/II stopien/Semestr I/Optimization Theory/NSGA/libraries/mathgl-2.3.2/src/canvas.cpp
+limits.h
+-
+mgl2/font.h
+/media/pjakubow/Data/Documents/Automatyka i Robotyka/II stopien/Semestr I/Optimization Theory/NSGA/libraries/mathgl-2.3.2/src/mgl2/font.h
+mgl2/canvas.h
+/media/pjakubow/Data/Documents/Automatyka i Robotyka/II stopien/Semestr I/Optimization Theory/NSGA/libraries/mathgl-2.3.2/src/mgl2/canvas.h
+
+/media/pjakubow/Data/Documents/Automatyka i Robotyka/II stopien/Semestr I/Optimization Theory/NSGA/libraries/mathgl-2.3.2/src/canvas_cf.cpp
+mgl2/canvas.h
+/media/pjakubow/Data/Documents/Automatyka i Robotyka/II stopien/Semestr I/Optimization Theory/NSGA/libraries/mathgl-2.3.2/src/mgl2/canvas.h
+mgl2/canvas_cf.h
+/media/pjakubow/Data/Documents/Automatyka i Robotyka/II stopien/Semestr I/Optimization Theory/NSGA/libraries/mathgl-2.3.2/src/mgl2/canvas_cf.h
+mgl2/eval.h
+/media/pjakubow/Data/Documents/Automatyka i Robotyka/II stopien/Semestr I/Optimization Theory/NSGA/libraries/mathgl-2.3.2/src/mgl2/eval.h
+mgl2/evalc.h
+/media/pjakubow/Data/Documents/Automatyka i Robotyka/II stopien/Semestr I/Optimization Theory/NSGA/libraries/mathgl-2.3.2/src/mgl2/evalc.h
+
+/media/pjakubow/Data/Documents/Automatyka i Robotyka/II stopien/Semestr I/Optimization Theory/NSGA/libraries/mathgl-2.3.2/src/complex.cpp
+mgl2/datac.h
+/media/pjakubow/Data/Documents/Automatyka i Robotyka/II stopien/Semestr I/Optimization Theory/NSGA/libraries/mathgl-2.3.2/src/mgl2/datac.h
+mgl2/evalc.h
+/media/pjakubow/Data/Documents/Automatyka i Robotyka/II stopien/Semestr I/Optimization Theory/NSGA/libraries/mathgl-2.3.2/src/mgl2/evalc.h
+mgl2/thread.h
+/media/pjakubow/Data/Documents/Automatyka i Robotyka/II stopien/Semestr I/Optimization Theory/NSGA/libraries/mathgl-2.3.2/src/mgl2/thread.h
+interp.hpp
+/media/pjakubow/Data/Documents/Automatyka i Robotyka/II stopien/Semestr I/Optimization Theory/NSGA/libraries/mathgl-2.3.2/src/interp.hpp
+
+/media/pjakubow/Data/Documents/Automatyka i Robotyka/II stopien/Semestr I/Optimization Theory/NSGA/libraries/mathgl-2.3.2/src/complex_ex.cpp
+ctype.h
+-
+mgl2/datac.h
+/media/pjakubow/Data/Documents/Automatyka i Robotyka/II stopien/Semestr I/Optimization Theory/NSGA/libraries/mathgl-2.3.2/src/mgl2/datac.h
+mgl2/evalc.h
+/media/pjakubow/Data/Documents/Automatyka i Robotyka/II stopien/Semestr I/Optimization Theory/NSGA/libraries/mathgl-2.3.2/src/mgl2/evalc.h
+mgl2/thread.h
+/media/pjakubow/Data/Documents/Automatyka i Robotyka/II stopien/Semestr I/Optimization Theory/NSGA/libraries/mathgl-2.3.2/src/mgl2/thread.h
+interp.hpp
+/media/pjakubow/Data/Documents/Automatyka i Robotyka/II stopien/Semestr I/Optimization Theory/NSGA/libraries/mathgl-2.3.2/src/interp.hpp
+
+/media/pjakubow/Data/Documents/Automatyka i Robotyka/II stopien/Semestr I/Optimization Theory/NSGA/libraries/mathgl-2.3.2/src/complex_io.cpp
+ctype.h
+-
+glob.h
+-
+mgl2/datac.h
+/media/pjakubow/Data/Documents/Automatyka i Robotyka/II stopien/Semestr I/Optimization Theory/NSGA/libraries/mathgl-2.3.2/src/mgl2/datac.h
+mgl2/evalc.h
+/media/pjakubow/Data/Documents/Automatyka i Robotyka/II stopien/Semestr I/Optimization Theory/NSGA/libraries/mathgl-2.3.2/src/mgl2/evalc.h
+mgl2/thread.h
+/media/pjakubow/Data/Documents/Automatyka i Robotyka/II stopien/Semestr I/Optimization Theory/NSGA/libraries/mathgl-2.3.2/src/mgl2/thread.h
+hdf5.h
+-
+
+/media/pjakubow/Data/Documents/Automatyka i Robotyka/II stopien/Semestr I/Optimization Theory/NSGA/libraries/mathgl-2.3.2/src/cont.cpp
+algorithm
+-
+algorithm.h
+-
+list
+-
+mgl2/surf.h
+/media/pjakubow/Data/Documents/Automatyka i Robotyka/II stopien/Semestr I/Optimization Theory/NSGA/libraries/mathgl-2.3.2/src/mgl2/surf.h
+mgl2/cont.h
+/media/pjakubow/Data/Documents/Automatyka i Robotyka/II stopien/Semestr I/Optimization Theory/NSGA/libraries/mathgl-2.3.2/src/mgl2/cont.h
+mgl2/data.h
+/media/pjakubow/Data/Documents/Automatyka i Robotyka/II stopien/Semestr I/Optimization Theory/NSGA/libraries/mathgl-2.3.2/src/mgl2/data.h
+mgl2/eval.h
+/media/pjakubow/Data/Documents/Automatyka i Robotyka/II stopien/Semestr I/Optimization Theory/NSGA/libraries/mathgl-2.3.2/src/mgl2/eval.h
+mgl2/font.h
+/media/pjakubow/Data/Documents/Automatyka i Robotyka/II stopien/Semestr I/Optimization Theory/NSGA/libraries/mathgl-2.3.2/src/mgl2/font.h
+mgl2/base.h
+/media/pjakubow/Data/Documents/Automatyka i Robotyka/II stopien/Semestr I/Optimization Theory/NSGA/libraries/mathgl-2.3.2/src/mgl2/base.h
+cont.hpp
+/media/pjakubow/Data/Documents/Automatyka i Robotyka/II stopien/Semestr I/Optimization Theory/NSGA/libraries/mathgl-2.3.2/src/cont.hpp
+
+/media/pjakubow/Data/Documents/Automatyka i Robotyka/II stopien/Semestr I/Optimization Theory/NSGA/libraries/mathgl-2.3.2/src/cont.hpp
+
+/media/pjakubow/Data/Documents/Automatyka i Robotyka/II stopien/Semestr I/Optimization Theory/NSGA/libraries/mathgl-2.3.2/src/crust.cpp
+float.h
+-
+math.h
+-
+list
+-
+mgl2/other.h
+/media/pjakubow/Data/Documents/Automatyka i Robotyka/II stopien/Semestr I/Optimization Theory/NSGA/libraries/mathgl-2.3.2/src/mgl2/other.h
+mgl2/data.h
+/media/pjakubow/Data/Documents/Automatyka i Robotyka/II stopien/Semestr I/Optimization Theory/NSGA/libraries/mathgl-2.3.2/src/mgl2/data.h
+mgl2/thread.h
+/media/pjakubow/Data/Documents/Automatyka i Robotyka/II stopien/Semestr I/Optimization Theory/NSGA/libraries/mathgl-2.3.2/src/mgl2/thread.h
+mgl2/base.h
+/media/pjakubow/Data/Documents/Automatyka i Robotyka/II stopien/Semestr I/Optimization Theory/NSGA/libraries/mathgl-2.3.2/src/mgl2/base.h
+cont.hpp
+/media/pjakubow/Data/Documents/Automatyka i Robotyka/II stopien/Semestr I/Optimization Theory/NSGA/libraries/mathgl-2.3.2/src/cont.hpp
+s_hull/s_hull_pro.h
+/media/pjakubow/Data/Documents/Automatyka i Robotyka/II stopien/Semestr I/Optimization Theory/NSGA/libraries/mathgl-2.3.2/src/s_hull/s_hull_pro.h
+
+/media/pjakubow/Data/Documents/Automatyka i Robotyka/II stopien/Semestr I/Optimization Theory/NSGA/libraries/mathgl-2.3.2/src/data.cpp
+time.h
+-
+mgl2/data.h
+/media/pjakubow/Data/Documents/Automatyka i Robotyka/II stopien/Semestr I/Optimization Theory/NSGA/libraries/mathgl-2.3.2/src/mgl2/data.h
+mgl2/datac.h
+/media/pjakubow/Data/Documents/Automatyka i Robotyka/II stopien/Semestr I/Optimization Theory/NSGA/libraries/mathgl-2.3.2/src/mgl2/datac.h
+mgl2/eval.h
+/media/pjakubow/Data/Documents/Automatyka i Robotyka/II stopien/Semestr I/Optimization Theory/NSGA/libraries/mathgl-2.3.2/src/mgl2/eval.h
+mgl2/thread.h
+/media/pjakubow/Data/Documents/Automatyka i Robotyka/II stopien/Semestr I/Optimization Theory/NSGA/libraries/mathgl-2.3.2/src/mgl2/thread.h
+interp.hpp
+/media/pjakubow/Data/Documents/Automatyka i Robotyka/II stopien/Semestr I/Optimization Theory/NSGA/libraries/mathgl-2.3.2/src/interp.hpp
+windows.h
+-
+process.h
+-
+sys/sysctl.h
+-
+sys/sysinfo.h
+-
+
+/media/pjakubow/Data/Documents/Automatyka i Robotyka/II stopien/Semestr I/Optimization Theory/NSGA/libraries/mathgl-2.3.2/src/data_ex.cpp
+ctype.h
+-
+mgl2/data.h
+/media/pjakubow/Data/Documents/Automatyka i Robotyka/II stopien/Semestr I/Optimization Theory/NSGA/libraries/mathgl-2.3.2/src/mgl2/data.h
+mgl2/eval.h
+/media/pjakubow/Data/Documents/Automatyka i Robotyka/II stopien/Semestr I/Optimization Theory/NSGA/libraries/mathgl-2.3.2/src/mgl2/eval.h
+mgl2/thread.h
+/media/pjakubow/Data/Documents/Automatyka i Robotyka/II stopien/Semestr I/Optimization Theory/NSGA/libraries/mathgl-2.3.2/src/mgl2/thread.h
+
+/media/pjakubow/Data/Documents/Automatyka i Robotyka/II stopien/Semestr I/Optimization Theory/NSGA/libraries/mathgl-2.3.2/src/data_gr.cpp
+ctype.h
+-
+glob.h
+-
+mgl2/datac.h
+/media/pjakubow/Data/Documents/Automatyka i Robotyka/II stopien/Semestr I/Optimization Theory/NSGA/libraries/mathgl-2.3.2/src/mgl2/datac.h
+mgl2/evalc.h
+/media/pjakubow/Data/Documents/Automatyka i Robotyka/II stopien/Semestr I/Optimization Theory/NSGA/libraries/mathgl-2.3.2/src/mgl2/evalc.h
+mgl2/thread.h
+/media/pjakubow/Data/Documents/Automatyka i Robotyka/II stopien/Semestr I/Optimization Theory/NSGA/libraries/mathgl-2.3.2/src/mgl2/thread.h
+mgl2/base.h
+/media/pjakubow/Data/Documents/Automatyka i Robotyka/II stopien/Semestr I/Optimization Theory/NSGA/libraries/mathgl-2.3.2/src/mgl2/base.h
+
+/media/pjakubow/Data/Documents/Automatyka i Robotyka/II stopien/Semestr I/Optimization Theory/NSGA/libraries/mathgl-2.3.2/src/data_io.cpp
+ctype.h
+-
+glob.h
+-
+mgl2/data.h
+/media/pjakubow/Data/Documents/Automatyka i Robotyka/II stopien/Semestr I/Optimization Theory/NSGA/libraries/mathgl-2.3.2/src/mgl2/data.h
+mgl2/datac.h
+/media/pjakubow/Data/Documents/Automatyka i Robotyka/II stopien/Semestr I/Optimization Theory/NSGA/libraries/mathgl-2.3.2/src/mgl2/datac.h
+mgl2/eval.h
+/media/pjakubow/Data/Documents/Automatyka i Robotyka/II stopien/Semestr I/Optimization Theory/NSGA/libraries/mathgl-2.3.2/src/mgl2/eval.h
+mgl2/thread.h
+/media/pjakubow/Data/Documents/Automatyka i Robotyka/II stopien/Semestr I/Optimization Theory/NSGA/libraries/mathgl-2.3.2/src/mgl2/thread.h
+hdf5.h
+-
+hdf/mfhdf.h
+-
+
+/media/pjakubow/Data/Documents/Automatyka i Robotyka/II stopien/Semestr I/Optimization Theory/NSGA/libraries/mathgl-2.3.2/src/data_png.cpp
+mgl2/data.h
+/media/pjakubow/Data/Documents/Automatyka i Robotyka/II stopien/Semestr I/Optimization Theory/NSGA/libraries/mathgl-2.3.2/src/mgl2/data.h
+png.h
+-
+jpeglib.h
+-
+
+/media/pjakubow/Data/Documents/Automatyka i Robotyka/II stopien/Semestr I/Optimization Theory/NSGA/libraries/mathgl-2.3.2/src/def_font.cpp
+
+/media/pjakubow/Data/Documents/Automatyka i Robotyka/II stopien/Semestr I/Optimization Theory/NSGA/libraries/mathgl-2.3.2/src/eval.cpp
+time.h
+-
+ctype.h
+-
+mgl2/data_cf.h
+/media/pjakubow/Data/Documents/Automatyka i Robotyka/II stopien/Semestr I/Optimization Theory/NSGA/libraries/mathgl-2.3.2/src/mgl2/data_cf.h
+mgl2/eval.h
+/media/pjakubow/Data/Documents/Automatyka i Robotyka/II stopien/Semestr I/Optimization Theory/NSGA/libraries/mathgl-2.3.2/src/mgl2/eval.h
+gsl/gsl_sf.h
+-
+gsl/gsl_rng.h
+-
+gsl/gsl_errno.h
+-
+sys/stat.h
+-
+
+/media/pjakubow/Data/Documents/Automatyka i Robotyka/II stopien/Semestr I/Optimization Theory/NSGA/libraries/mathgl-2.3.2/src/evalc.cpp
+time.h
+-
+mgl2/datac_cf.h
+/media/pjakubow/Data/Documents/Automatyka i Robotyka/II stopien/Semestr I/Optimization Theory/NSGA/libraries/mathgl-2.3.2/src/mgl2/datac_cf.h
+mgl2/evalc.h
+/media/pjakubow/Data/Documents/Automatyka i Robotyka/II stopien/Semestr I/Optimization Theory/NSGA/libraries/mathgl-2.3.2/src/mgl2/evalc.h
+gsl/gsl_sf.h
+-
+
+/media/pjakubow/Data/Documents/Automatyka i Robotyka/II stopien/Semestr I/Optimization Theory/NSGA/libraries/mathgl-2.3.2/src/evalp.cpp
+time.h
+-
+ctype.h
+-
+mgl2/base.h
+/media/pjakubow/Data/Documents/Automatyka i Robotyka/II stopien/Semestr I/Optimization Theory/NSGA/libraries/mathgl-2.3.2/src/mgl2/base.h
+mgl2/parser.h
+/media/pjakubow/Data/Documents/Automatyka i Robotyka/II stopien/Semestr I/Optimization Theory/NSGA/libraries/mathgl-2.3.2/src/mgl2/parser.h
+gsl/gsl_sf.h
+-
+gsl/gsl_errno.h
+-
+
+/media/pjakubow/Data/Documents/Automatyka i Robotyka/II stopien/Semestr I/Optimization Theory/NSGA/libraries/mathgl-2.3.2/src/exec.cpp
+io.h
+-
+direct.h
+-
+unistd.h
+-
+mgl2/base.h
+/media/pjakubow/Data/Documents/Automatyka i Robotyka/II stopien/Semestr I/Optimization Theory/NSGA/libraries/mathgl-2.3.2/src/mgl2/base.h
+mgl2/parser.h
+/media/pjakubow/Data/Documents/Automatyka i Robotyka/II stopien/Semestr I/Optimization Theory/NSGA/libraries/mathgl-2.3.2/src/mgl2/parser.h
+
+/media/pjakubow/Data/Documents/Automatyka i Robotyka/II stopien/Semestr I/Optimization Theory/NSGA/libraries/mathgl-2.3.2/src/export.cpp
+time.h
+-
+stdarg.h
+-
+windows.h
+-
+unistd.h
+-
+mgl2/canvas.h
+/media/pjakubow/Data/Documents/Automatyka i Robotyka/II stopien/Semestr I/Optimization Theory/NSGA/libraries/mathgl-2.3.2/src/mgl2/canvas.h
+mgl2/canvas_cf.h
+/media/pjakubow/Data/Documents/Automatyka i Robotyka/II stopien/Semestr I/Optimization Theory/NSGA/libraries/mathgl-2.3.2/src/mgl2/canvas_cf.h
+png.h
+-
+jpeglib.h
+-
+gif_lib.h
+-
+io.h
+-
+direct.h
+-
+
+/media/pjakubow/Data/Documents/Automatyka i Robotyka/II stopien/Semestr I/Optimization Theory/NSGA/libraries/mathgl-2.3.2/src/export_2d.cpp
+mgl2/canvas.h
+/media/pjakubow/Data/Documents/Automatyka i Robotyka/II stopien/Semestr I/Optimization Theory/NSGA/libraries/mathgl-2.3.2/src/mgl2/canvas.h
+mgl2/canvas_cf.h
+/media/pjakubow/Data/Documents/Automatyka i Robotyka/II stopien/Semestr I/Optimization Theory/NSGA/libraries/mathgl-2.3.2/src/mgl2/canvas_cf.h
+mgl2/font.h
+/media/pjakubow/Data/Documents/Automatyka i Robotyka/II stopien/Semestr I/Optimization Theory/NSGA/libraries/mathgl-2.3.2/src/mgl2/font.h
+time.h
+-
+algorithm
+-
+vector
+-
+string
+-
+sys/stat.h
+-
+
+/media/pjakubow/Data/Documents/Automatyka i Robotyka/II stopien/Semestr I/Optimization Theory/NSGA/libraries/mathgl-2.3.2/src/export_3d.cpp
+time.h
+-
+stdarg.h
+-
+mgl2/canvas.h
+/media/pjakubow/Data/Documents/Automatyka i Robotyka/II stopien/Semestr I/Optimization Theory/NSGA/libraries/mathgl-2.3.2/src/mgl2/canvas.h
+mgl2/canvas_cf.h
+/media/pjakubow/Data/Documents/Automatyka i Robotyka/II stopien/Semestr I/Optimization Theory/NSGA/libraries/mathgl-2.3.2/src/mgl2/canvas_cf.h
+
+/media/pjakubow/Data/Documents/Automatyka i Robotyka/II stopien/Semestr I/Optimization Theory/NSGA/libraries/mathgl-2.3.2/src/fft.cpp
+mgl2/datac.h
+/media/pjakubow/Data/Documents/Automatyka i Robotyka/II stopien/Semestr I/Optimization Theory/NSGA/libraries/mathgl-2.3.2/src/mgl2/datac.h
+mgl2/data.h
+/media/pjakubow/Data/Documents/Automatyka i Robotyka/II stopien/Semestr I/Optimization Theory/NSGA/libraries/mathgl-2.3.2/src/mgl2/data.h
+mgl2/thread.h
+/media/pjakubow/Data/Documents/Automatyka i Robotyka/II stopien/Semestr I/Optimization Theory/NSGA/libraries/mathgl-2.3.2/src/mgl2/thread.h
+gsl/gsl_fft_complex.h
+-
+gsl/gsl_dht.h
+-
+gsl/gsl_sf.h
+-
+
+/media/pjakubow/Data/Documents/Automatyka i Robotyka/II stopien/Semestr I/Optimization Theory/NSGA/libraries/mathgl-2.3.2/src/fit.cpp
+ctype.h
+-
+mgl2/fit.h
+/media/pjakubow/Data/Documents/Automatyka i Robotyka/II stopien/Semestr I/Optimization Theory/NSGA/libraries/mathgl-2.3.2/src/mgl2/fit.h
+mgl2/prim.h
+/media/pjakubow/Data/Documents/Automatyka i Robotyka/II stopien/Semestr I/Optimization Theory/NSGA/libraries/mathgl-2.3.2/src/mgl2/prim.h
+mgl2/eval.h
+/media/pjakubow/Data/Documents/Automatyka i Robotyka/II stopien/Semestr I/Optimization Theory/NSGA/libraries/mathgl-2.3.2/src/mgl2/eval.h
+mgl2/data.h
+/media/pjakubow/Data/Documents/Automatyka i Robotyka/II stopien/Semestr I/Optimization Theory/NSGA/libraries/mathgl-2.3.2/src/mgl2/data.h
+mgl2/base.h
+/media/pjakubow/Data/Documents/Automatyka i Robotyka/II stopien/Semestr I/Optimization Theory/NSGA/libraries/mathgl-2.3.2/src/mgl2/base.h
+gsl/gsl_multifit_nlin.h
+-
+gsl/gsl_blas.h
+-
+
+/media/pjakubow/Data/Documents/Automatyka i Robotyka/II stopien/Semestr I/Optimization Theory/NSGA/libraries/mathgl-2.3.2/src/font.cpp
+locale.h
+-
+ctype.h
+-
+wctype.h
+-
+algorithm
+-
+algorithm.h
+-
+mgl2/base.h
+/media/pjakubow/Data/Documents/Automatyka i Robotyka/II stopien/Semestr I/Optimization Theory/NSGA/libraries/mathgl-2.3.2/src/mgl2/base.h
+mgl2/font.h
+/media/pjakubow/Data/Documents/Automatyka i Robotyka/II stopien/Semestr I/Optimization Theory/NSGA/libraries/mathgl-2.3.2/src/mgl2/font.h
+def_font.cpp
+/media/pjakubow/Data/Documents/Automatyka i Robotyka/II stopien/Semestr I/Optimization Theory/NSGA/libraries/mathgl-2.3.2/src/def_font.cpp
+
+/media/pjakubow/Data/Documents/Automatyka i Robotyka/II stopien/Semestr I/Optimization Theory/NSGA/libraries/mathgl-2.3.2/src/interp.hpp
+
+/media/pjakubow/Data/Documents/Automatyka i Robotyka/II stopien/Semestr I/Optimization Theory/NSGA/libraries/mathgl-2.3.2/src/obj.cpp
+time.h
+-
+mgl2/canvas.h
+/media/pjakubow/Data/Documents/Automatyka i Robotyka/II stopien/Semestr I/Optimization Theory/NSGA/libraries/mathgl-2.3.2/src/mgl2/canvas.h
+mgl2/canvas_cf.h
+/media/pjakubow/Data/Documents/Automatyka i Robotyka/II stopien/Semestr I/Optimization Theory/NSGA/libraries/mathgl-2.3.2/src/mgl2/canvas_cf.h
+climits
+-
+cassert
+-
+float.h
+-
+math.h
+-
+string
+-
+vector
+-
+deque
+-
+map
+-
+iostream
+-
+
+/media/pjakubow/Data/Documents/Automatyka i Robotyka/II stopien/Semestr I/Optimization Theory/NSGA/libraries/mathgl-2.3.2/src/opengl.cpp
+windows.h
+-
+OpenGL/gl.h
+-
+GL/gl.h
+-
+mgl2/opengl.h
+/media/pjakubow/Data/Documents/Automatyka i Robotyka/II stopien/Semestr I/Optimization Theory/NSGA/libraries/mathgl-2.3.2/src/mgl2/opengl.h
+mgl2/mgl_cf.h
+/media/pjakubow/Data/Documents/Automatyka i Robotyka/II stopien/Semestr I/Optimization Theory/NSGA/libraries/mathgl-2.3.2/src/mgl2/mgl_cf.h
+algorithm
+-
+
+/media/pjakubow/Data/Documents/Automatyka i Robotyka/II stopien/Semestr I/Optimization Theory/NSGA/libraries/mathgl-2.3.2/src/other.cpp
+mgl2/other.h
+/media/pjakubow/Data/Documents/Automatyka i Robotyka/II stopien/Semestr I/Optimization Theory/NSGA/libraries/mathgl-2.3.2/src/mgl2/other.h
+mgl2/surf.h
+/media/pjakubow/Data/Documents/Automatyka i Robotyka/II stopien/Semestr I/Optimization Theory/NSGA/libraries/mathgl-2.3.2/src/mgl2/surf.h
+mgl2/cont.h
+/media/pjakubow/Data/Documents/Automatyka i Robotyka/II stopien/Semestr I/Optimization Theory/NSGA/libraries/mathgl-2.3.2/src/mgl2/cont.h
+mgl2/eval.h
+/media/pjakubow/Data/Documents/Automatyka i Robotyka/II stopien/Semestr I/Optimization Theory/NSGA/libraries/mathgl-2.3.2/src/mgl2/eval.h
+mgl2/data.h
+/media/pjakubow/Data/Documents/Automatyka i Robotyka/II stopien/Semestr I/Optimization Theory/NSGA/libraries/mathgl-2.3.2/src/mgl2/data.h
+mgl2/base.h
+/media/pjakubow/Data/Documents/Automatyka i Robotyka/II stopien/Semestr I/Optimization Theory/NSGA/libraries/mathgl-2.3.2/src/mgl2/base.h
+
+/media/pjakubow/Data/Documents/Automatyka i Robotyka/II stopien/Semestr I/Optimization Theory/NSGA/libraries/mathgl-2.3.2/src/parser.cpp
+ctype.h
+-
+mgl2/parser.h
+/media/pjakubow/Data/Documents/Automatyka i Robotyka/II stopien/Semestr I/Optimization Theory/NSGA/libraries/mathgl-2.3.2/src/mgl2/parser.h
+mgl2/canvas_cf.h
+/media/pjakubow/Data/Documents/Automatyka i Robotyka/II stopien/Semestr I/Optimization Theory/NSGA/libraries/mathgl-2.3.2/src/mgl2/canvas_cf.h
+mgl2/base.h
+/media/pjakubow/Data/Documents/Automatyka i Robotyka/II stopien/Semestr I/Optimization Theory/NSGA/libraries/mathgl-2.3.2/src/mgl2/base.h
+io.h
+-
+unistd.h
+-
+string
+-
+
+/media/pjakubow/Data/Documents/Automatyka i Robotyka/II stopien/Semestr I/Optimization Theory/NSGA/libraries/mathgl-2.3.2/src/pde.cpp
+mgl2/data.h
+/media/pjakubow/Data/Documents/Automatyka i Robotyka/II stopien/Semestr I/Optimization Theory/NSGA/libraries/mathgl-2.3.2/src/mgl2/data.h
+mgl2/datac.h
+/media/pjakubow/Data/Documents/Automatyka i Robotyka/II stopien/Semestr I/Optimization Theory/NSGA/libraries/mathgl-2.3.2/src/mgl2/datac.h
+mgl2/eval.h
+/media/pjakubow/Data/Documents/Automatyka i Robotyka/II stopien/Semestr I/Optimization Theory/NSGA/libraries/mathgl-2.3.2/src/mgl2/eval.h
+mgl2/thread.h
+/media/pjakubow/Data/Documents/Automatyka i Robotyka/II stopien/Semestr I/Optimization Theory/NSGA/libraries/mathgl-2.3.2/src/mgl2/thread.h
+mgl2/base.h
+/media/pjakubow/Data/Documents/Automatyka i Robotyka/II stopien/Semestr I/Optimization Theory/NSGA/libraries/mathgl-2.3.2/src/mgl2/base.h
+
+/media/pjakubow/Data/Documents/Automatyka i Robotyka/II stopien/Semestr I/Optimization Theory/NSGA/libraries/mathgl-2.3.2/src/pixel.cpp
+algorithm
+-
+mgl2/canvas.h
+/media/pjakubow/Data/Documents/Automatyka i Robotyka/II stopien/Semestr I/Optimization Theory/NSGA/libraries/mathgl-2.3.2/src/mgl2/canvas.h
+mgl2/thread.h
+/media/pjakubow/Data/Documents/Automatyka i Robotyka/II stopien/Semestr I/Optimization Theory/NSGA/libraries/mathgl-2.3.2/src/mgl2/thread.h
+
+/media/pjakubow/Data/Documents/Automatyka i Robotyka/II stopien/Semestr I/Optimization Theory/NSGA/libraries/mathgl-2.3.2/src/plot.cpp
+mgl2/plot.h
+/media/pjakubow/Data/Documents/Automatyka i Robotyka/II stopien/Semestr I/Optimization Theory/NSGA/libraries/mathgl-2.3.2/src/mgl2/plot.h
+mgl2/eval.h
+/media/pjakubow/Data/Documents/Automatyka i Robotyka/II stopien/Semestr I/Optimization Theory/NSGA/libraries/mathgl-2.3.2/src/mgl2/eval.h
+mgl2/data.h
+/media/pjakubow/Data/Documents/Automatyka i Robotyka/II stopien/Semestr I/Optimization Theory/NSGA/libraries/mathgl-2.3.2/src/mgl2/data.h
+mgl2/base.h
+/media/pjakubow/Data/Documents/Automatyka i Robotyka/II stopien/Semestr I/Optimization Theory/NSGA/libraries/mathgl-2.3.2/src/mgl2/base.h
+
+/media/pjakubow/Data/Documents/Automatyka i Robotyka/II stopien/Semestr I/Optimization Theory/NSGA/libraries/mathgl-2.3.2/src/prc.cpp
+png.h
+-
+stdio.h
+-
+time.h
+-
+mgl2/canvas.h
+/media/pjakubow/Data/Documents/Automatyka i Robotyka/II stopien/Semestr I/Optimization Theory/NSGA/libraries/mathgl-2.3.2/src/mgl2/canvas.h
+mgl2/canvas_cf.h
+/media/pjakubow/Data/Documents/Automatyka i Robotyka/II stopien/Semestr I/Optimization Theory/NSGA/libraries/mathgl-2.3.2/src/mgl2/canvas_cf.h
+prc/oPRCFile.h
+/media/pjakubow/Data/Documents/Automatyka i Robotyka/II stopien/Semestr I/Optimization Theory/NSGA/libraries/mathgl-2.3.2/src/prc/oPRCFile.h
+map
+-
+utility
+-
+string.h
+-
+iostream
+-
+iomanip
+-
+fstream
+-
+setjmp.h
+-
+hpdf.h
+-
+hpdf_u3d.h
+-
+hpdf_annotation.h
+-
+
+/media/pjakubow/Data/Documents/Automatyka i Robotyka/II stopien/Semestr I/Optimization Theory/NSGA/libraries/mathgl-2.3.2/src/prc/PRC.h
+stdint.h
+-
+stdint.h
+-
+inttypes.h
+-
+
+/media/pjakubow/Data/Documents/Automatyka i Robotyka/II stopien/Semestr I/Optimization Theory/NSGA/libraries/mathgl-2.3.2/src/prc/PRCbitStream.cc
+iostream
+-
+zlib.h
+-
+stdlib.h
+-
+string.h
+-
+cassert
+-
+math.h
+-
+PRCbitStream.h
+/media/pjakubow/Data/Documents/Automatyka i Robotyka/II stopien/Semestr I/Optimization Theory/NSGA/libraries/mathgl-2.3.2/src/prc/PRCbitStream.h
+PRCdouble.h
+/media/pjakubow/Data/Documents/Automatyka i Robotyka/II stopien/Semestr I/Optimization Theory/NSGA/libraries/mathgl-2.3.2/src/prc/PRCdouble.h
+
+/media/pjakubow/Data/Documents/Automatyka i Robotyka/II stopien/Semestr I/Optimization Theory/NSGA/libraries/mathgl-2.3.2/src/prc/PRCbitStream.h
+stdio.h
+-
+stdint.h
+-
+stdint.h
+-
+inttypes.h
+-
+string
+-
+iostream
+-
+stdlib.h
+-
+
+/media/pjakubow/Data/Documents/Automatyka i Robotyka/II stopien/Semestr I/Optimization Theory/NSGA/libraries/mathgl-2.3.2/src/prc/PRCdouble.cc
+PRCdouble.h
+/media/pjakubow/Data/Documents/Automatyka i Robotyka/II stopien/Semestr I/Optimization Theory/NSGA/libraries/mathgl-2.3.2/src/prc/PRCdouble.h
+
+/media/pjakubow/Data/Documents/Automatyka i Robotyka/II stopien/Semestr I/Optimization Theory/NSGA/libraries/mathgl-2.3.2/src/prc/PRCdouble.h
+cstdlib
+-
+cmath
+-
+cstring
+-
+config.h
+/media/pjakubow/Data/Documents/Automatyka i Robotyka/II stopien/Semestr I/Optimization Theory/NSGA/libraries/mathgl-2.3.2/src/prc/config.h
+
+/media/pjakubow/Data/Documents/Automatyka i Robotyka/II stopien/Semestr I/Optimization Theory/NSGA/libraries/mathgl-2.3.2/src/prc/oPRCFile.cc
+oPRCFile.h
+/media/pjakubow/Data/Documents/Automatyka i Robotyka/II stopien/Semestr I/Optimization Theory/NSGA/libraries/mathgl-2.3.2/src/prc/oPRCFile.h
+time.h
+-
+sstream
+-
+iostream
+-
+fstream
+-
+iomanip
+-
+string
+-
+zlib.h
+-
+string.h
+-
+
+/media/pjakubow/Data/Documents/Automatyka i Robotyka/II stopien/Semestr I/Optimization Theory/NSGA/libraries/mathgl-2.3.2/src/prc/oPRCFile.h
+iostream
+-
+fstream
+-
+vector
+-
+map
+-
+set
+-
+list
+-
+stack
+-
+string
+-
+string.h
+-
+config.h
+/media/pjakubow/Data/Documents/Automatyka i Robotyka/II stopien/Semestr I/Optimization Theory/NSGA/libraries/mathgl-2.3.2/src/prc/config.h
+PRC.h
+/media/pjakubow/Data/Documents/Automatyka i Robotyka/II stopien/Semestr I/Optimization Theory/NSGA/libraries/mathgl-2.3.2/src/prc/PRC.h
+PRCbitStream.h
+/media/pjakubow/Data/Documents/Automatyka i Robotyka/II stopien/Semestr I/Optimization Theory/NSGA/libraries/mathgl-2.3.2/src/prc/PRCbitStream.h
+writePRC.h
+/media/pjakubow/Data/Documents/Automatyka i Robotyka/II stopien/Semestr I/Optimization Theory/NSGA/libraries/mathgl-2.3.2/src/prc/writePRC.h
+
+/media/pjakubow/Data/Documents/Automatyka i Robotyka/II stopien/Semestr I/Optimization Theory/NSGA/libraries/mathgl-2.3.2/src/prc/writePRC.cc
+writePRC.h
+/media/pjakubow/Data/Documents/Automatyka i Robotyka/II stopien/Semestr I/Optimization Theory/NSGA/libraries/mathgl-2.3.2/src/prc/writePRC.h
+climits
+-
+cassert
+-
+iostream
+-
+iomanip
+-
+fstream
+-
+sstream
+-
+vector
+-
+iterator
+-
+
+/media/pjakubow/Data/Documents/Automatyka i Robotyka/II stopien/Semestr I/Optimization Theory/NSGA/libraries/mathgl-2.3.2/src/prc/writePRC.h
+string
+-
+vector
+-
+deque
+-
+list
+-
+map
+-
+iostream
+-
+algorithm
+-
+PRCbitStream.h
+/media/pjakubow/Data/Documents/Automatyka i Robotyka/II stopien/Semestr I/Optimization Theory/NSGA/libraries/mathgl-2.3.2/src/prc/PRCbitStream.h
+PRC.h
+/media/pjakubow/Data/Documents/Automatyka i Robotyka/II stopien/Semestr I/Optimization Theory/NSGA/libraries/mathgl-2.3.2/src/prc/PRC.h
+float.h
+-
+math.h
+-
+
+/media/pjakubow/Data/Documents/Automatyka i Robotyka/II stopien/Semestr I/Optimization Theory/NSGA/libraries/mathgl-2.3.2/src/prim.cpp
+mgl2/canvas.h
+/media/pjakubow/Data/Documents/Automatyka i Robotyka/II stopien/Semestr I/Optimization Theory/NSGA/libraries/mathgl-2.3.2/src/mgl2/canvas.h
+mgl2/prim.h
+/media/pjakubow/Data/Documents/Automatyka i Robotyka/II stopien/Semestr I/Optimization Theory/NSGA/libraries/mathgl-2.3.2/src/mgl2/prim.h
+mgl2/data.h
+/media/pjakubow/Data/Documents/Automatyka i Robotyka/II stopien/Semestr I/Optimization Theory/NSGA/libraries/mathgl-2.3.2/src/mgl2/data.h
+
+/media/pjakubow/Data/Documents/Automatyka i Robotyka/II stopien/Semestr I/Optimization Theory/NSGA/libraries/mathgl-2.3.2/src/s_hull/s_hull_pro.cpp
+iostream
+-
+set
+-
+vector
+-
+fstream
+-
+stdlib.h
+-
+math.h
+-
+string
+-
+algorithm
+-
+s_hull_pro.h
+/media/pjakubow/Data/Documents/Automatyka i Robotyka/II stopien/Semestr I/Optimization Theory/NSGA/libraries/mathgl-2.3.2/src/s_hull/s_hull_pro.h
+
+/media/pjakubow/Data/Documents/Automatyka i Robotyka/II stopien/Semestr I/Optimization Theory/NSGA/libraries/mathgl-2.3.2/src/s_hull/s_hull_pro.h
+stdlib.h
+-
+vector
+-
+set
+-
+
+/media/pjakubow/Data/Documents/Automatyka i Robotyka/II stopien/Semestr I/Optimization Theory/NSGA/libraries/mathgl-2.3.2/src/surf.cpp
+mgl2/define.h
+/media/pjakubow/Data/Documents/Automatyka i Robotyka/II stopien/Semestr I/Optimization Theory/NSGA/libraries/mathgl-2.3.2/src/mgl2/define.h
+mgl2/surf.h
+/media/pjakubow/Data/Documents/Automatyka i Robotyka/II stopien/Semestr I/Optimization Theory/NSGA/libraries/mathgl-2.3.2/src/mgl2/surf.h
+mgl2/data.h
+/media/pjakubow/Data/Documents/Automatyka i Robotyka/II stopien/Semestr I/Optimization Theory/NSGA/libraries/mathgl-2.3.2/src/mgl2/data.h
+mgl2/eval.h
+/media/pjakubow/Data/Documents/Automatyka i Robotyka/II stopien/Semestr I/Optimization Theory/NSGA/libraries/mathgl-2.3.2/src/mgl2/eval.h
+mgl2/base.h
+/media/pjakubow/Data/Documents/Automatyka i Robotyka/II stopien/Semestr I/Optimization Theory/NSGA/libraries/mathgl-2.3.2/src/mgl2/base.h
+
+/media/pjakubow/Data/Documents/Automatyka i Robotyka/II stopien/Semestr I/Optimization Theory/NSGA/libraries/mathgl-2.3.2/src/tex_table.cpp
+mgl2/font.h
+/media/pjakubow/Data/Documents/Automatyka i Robotyka/II stopien/Semestr I/Optimization Theory/NSGA/libraries/mathgl-2.3.2/src/mgl2/font.h
+
+/media/pjakubow/Data/Documents/Automatyka i Robotyka/II stopien/Semestr I/Optimization Theory/NSGA/libraries/mathgl-2.3.2/src/vect.cpp
+mgl2/vect.h
+/media/pjakubow/Data/Documents/Automatyka i Robotyka/II stopien/Semestr I/Optimization Theory/NSGA/libraries/mathgl-2.3.2/src/mgl2/vect.h
+mgl2/eval.h
+/media/pjakubow/Data/Documents/Automatyka i Robotyka/II stopien/Semestr I/Optimization Theory/NSGA/libraries/mathgl-2.3.2/src/mgl2/eval.h
+mgl2/data.h
+/media/pjakubow/Data/Documents/Automatyka i Robotyka/II stopien/Semestr I/Optimization Theory/NSGA/libraries/mathgl-2.3.2/src/mgl2/data.h
+mgl2/base.h
+/media/pjakubow/Data/Documents/Automatyka i Robotyka/II stopien/Semestr I/Optimization Theory/NSGA/libraries/mathgl-2.3.2/src/mgl2/base.h
+
+/media/pjakubow/Data/Documents/Automatyka i Robotyka/II stopien/Semestr I/Optimization Theory/NSGA/libraries/mathgl-2.3.2/src/volume.cpp
+mgl2/define.h
+/media/pjakubow/Data/Documents/Automatyka i Robotyka/II stopien/Semestr I/Optimization Theory/NSGA/libraries/mathgl-2.3.2/src/mgl2/define.h
+mgl2/volume.h
+/media/pjakubow/Data/Documents/Automatyka i Robotyka/II stopien/Semestr I/Optimization Theory/NSGA/libraries/mathgl-2.3.2/src/mgl2/volume.h
+mgl2/data.h
+/media/pjakubow/Data/Documents/Automatyka i Robotyka/II stopien/Semestr I/Optimization Theory/NSGA/libraries/mathgl-2.3.2/src/mgl2/data.h
+mgl2/eval.h
+/media/pjakubow/Data/Documents/Automatyka i Robotyka/II stopien/Semestr I/Optimization Theory/NSGA/libraries/mathgl-2.3.2/src/mgl2/eval.h
+mgl2/base.h
+/media/pjakubow/Data/Documents/Automatyka i Robotyka/II stopien/Semestr I/Optimization Theory/NSGA/libraries/mathgl-2.3.2/src/mgl2/base.h
+
+/media/pjakubow/Data/Documents/Automatyka i Robotyka/II stopien/Semestr I/Optimization Theory/NSGA/libraries/mathgl-2.3.2/src/window.cpp
+mgl2/canvas_wnd.h
+/media/pjakubow/Data/Documents/Automatyka i Robotyka/II stopien/Semestr I/Optimization Theory/NSGA/libraries/mathgl-2.3.2/src/mgl2/canvas_wnd.h
+
+include/mgl2/abstract.h
+mgl2/define.h
+include/mgl2/mgl2/define.h
+string
+-
+mgl2/type.h
+include/mgl2/mgl2/type.h
+
+include/mgl2/addon.h
+mgl2/define.h
+include/mgl2/mgl2/define.h
+
+include/mgl2/base.h
+mgl2/abstract.h
+include/mgl2/mgl2/abstract.h
+vector
+-
+string
+-
+pthread.h
+-
+
+include/mgl2/base_cf.h
+mgl2/abstract.h
+include/mgl2/mgl2/abstract.h
+
+include/mgl2/canvas.h
+mgl2/base.h
+include/mgl2/mgl2/base.h
+
+include/mgl2/canvas_cf.h
+mgl2/abstract.h
+include/mgl2/mgl2/abstract.h
+
+include/mgl2/canvas_wnd.h
+mgl2/canvas.h
+include/mgl2/mgl2/canvas.h
+mgl2/wnd.h
+include/mgl2/mgl2/wnd.h
+
+include/mgl2/config.h
+
+include/mgl2/cont.h
+mgl2/abstract.h
+include/mgl2/mgl2/abstract.h
+
+include/mgl2/data.h
+mgl2/data_cf.h
+include/mgl2/mgl2/data_cf.h
+mgl2/pde.h
+include/mgl2/mgl2/pde.h
+vector
+-
+string
+-
+
+include/mgl2/data_cf.h
+mgl2/abstract.h
+include/mgl2/mgl2/abstract.h
+gsl/gsl_vector.h
+-
+gsl/gsl_matrix.h
+-
+
+include/mgl2/datac.h
+mgl2/data.h
+include/mgl2/mgl2/data.h
+mgl2/datac_cf.h
+include/mgl2/mgl2/datac_cf.h
+vector
+-
+string
+-
+
+include/mgl2/datac_cf.h
+mgl2/abstract.h
+include/mgl2/mgl2/abstract.h
+gsl/gsl_vector.h
+-
+gsl/gsl_matrix.h
+-
+
+include/mgl2/define.h
+mgl2/config.h
+include/mgl2/mgl2/config.h
+mgl2/dllexport.h
+include/mgl2/mgl2/dllexport.h
+omp.h
+-
+zlib.h
+-
+stdint.h
+-
+math.h
+-
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+wchar.h
+-
+float.h
+-
+math.h
+-
+complex.h
+-
+complex
+-
+complex.h
+-
+
+include/mgl2/dllexport.h
+
+include/mgl2/eval.h
+mgl2/define.h
+include/mgl2/mgl2/define.h
+
+include/mgl2/evalc.h
+mgl2/eval.h
+include/mgl2/mgl2/eval.h
+
+include/mgl2/fit.h
+mgl2/abstract.h
+include/mgl2/mgl2/abstract.h
+
+include/mgl2/font.h
+mgl2/define.h
+include/mgl2/mgl2/define.h
+vector
+-
+
+include/mgl2/mgl.h
+mgl2/mgl_cf.h
+include/mgl2/mgl2/mgl_cf.h
+mgl2/data.h
+include/mgl2/mgl2/data.h
+mgl2/datac.h
+include/mgl2/mgl2/datac.h
+sys/stat.h
+-
+
+include/mgl2/mgl_cf.h
+mgl2/data.h
+-
+mgl2/datac.h
+-
+mgl2/base_cf.h
+-
+mgl2/data_cf.h
+-
+mgl2/datac_cf.h
+-
+mgl2/cont.h
+-
+mgl2/fit.h
+-
+mgl2/plot.h
+-
+mgl2/surf.h
+-
+mgl2/volume.h
+-
+mgl2/vect.h
+-
+mgl2/prim.h
+-
+mgl2/other.h
+-
+mgl2/canvas_cf.h
+-
+mgl2/addon.h
+-
+
+include/mgl2/opengl.h
+mgl2/canvas.h
+include/mgl2/mgl2/canvas.h
+
+include/mgl2/other.h
+mgl2/abstract.h
+include/mgl2/mgl2/abstract.h
+
+include/mgl2/parser.h
+mgl2/mgl.h
+include/mgl2/mgl2/mgl.h
+string
+-
+ltdl.h
+-
+
+include/mgl2/pde.h
+mgl2/abstract.h
+include/mgl2/mgl2/abstract.h
+
+include/mgl2/plot.h
+mgl2/abstract.h
+include/mgl2/mgl2/abstract.h
+
+include/mgl2/prim.h
+mgl2/abstract.h
+include/mgl2/mgl2/abstract.h
+
+include/mgl2/surf.h
+mgl2/abstract.h
+include/mgl2/mgl2/abstract.h
+
+include/mgl2/thread.h
+mgl2/define.h
+include/mgl2/mgl2/define.h
+pthread.h
+-
+
+include/mgl2/type.h
+mgl2/define.h
+include/mgl2/mgl2/define.h
+
+include/mgl2/vect.h
+mgl2/abstract.h
+include/mgl2/mgl2/abstract.h
+
+include/mgl2/volume.h
+mgl2/abstract.h
+include/mgl2/mgl2/abstract.h
+
+include/mgl2/wnd.h
+mgl2/mgl.h
+include/mgl2/mgl2/mgl.h
+
