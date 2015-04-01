@@ -1,8 +1,15 @@
 language: cpp
 before_install:
   - sudo add-apt-repository ppa:kalakris/cmake -y
+  - sudo add-apt-repository ppa:ubuntu-toolchain-r/test -y
   - sudo apt-get update
-  - sudo apt-get install libqt4-dev qt4-qmake cmake libhdf4-0 libgsl0-dev libgsl0ldbl libwxgtk2.8-0 libwxbase2.8-0 libfltk1.3 freeglut3 -y
+  - sudo apt-get install libqt4-dev qt4-qmake -y
+  - sudo apt-get install cmake gcc-4.9 g++-4.9 -y
+  - sudo apt-get install libhdf4-0 libgsl0-dev libgsl0ldbl libwxgtk2.8-0 libwxbase2.8-0 libfltk1.3 freeglut3 -y
+  - sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-4.6 60 --slave /usr/bin/g++ g++ /usr/bin/g++-4.6
+  - sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-4.9 40 --slave /usr/bin/g++ g++ /usr/bin/g++-4.9
+  - sudo update-alternatives --config gcc
+  - g++ --version
   - chmod u+x libraries/build_libs.sh
   - cd libraries && ./build_libs.sh && cd ..
 
