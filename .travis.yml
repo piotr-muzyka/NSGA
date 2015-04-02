@@ -6,7 +6,7 @@ before_install:
  # Install QT4
   - sudo apt-get install libqt4-dev qt4-qmake -y
  # Install MathGl dependencies
-  - sudo apt-get install libmgl-dev libmgl-qt* -y
+  - sudo apt-get install libhdf4-0 libgsl0-dev libgsl0ldbl libwxgtk2.8-0 libwxbase2.8-0 libfltk1.3 freeglut3 libhpdf-dev libhdf5-lam-1.8.4 libhdf5-lam-dev libhdf5-mpi-dev libhdf5-mpich-1.8.4 libhdf5-mpich-dev libhdf5-openmpi-1.8.4 libhdf5-openmpi-dev libhdf5-serial-1.8.4 libhdf5-serial-dev -y
  # Change g++ version to support c++11 and new cmake
   - sudo apt-get install cmake gcc-4.9 g++-4.9 -y
   - sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-4.6 60 --slave /usr/bin/g++ g++ /usr/bin/g++-4.6
