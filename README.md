@@ -7,3 +7,4 @@ Non-Dominated Sorting Algorithm as Bicriterial Optimization Method with constrai
 * Allow user to define max. 5 constraints
 * Plot set expression and Pareto-optimized solution vector
 * (additionally) create GUI
+# NSGA-II
