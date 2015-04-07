@@ -32,7 +32,6 @@
    <string>NSGA-II Application</string>
   </property>
   <widget class="QWidget" name="centralWidget">
-<<<<<<< HEAD
    <property name="autoFillBackground">
     <bool>false</bool>
    </property>
@@ -61,18 +60,6 @@
      <widget class="QLineEdit" name="lineEdit"/>
     </item>
    </layout>
-=======
-   <widget class="QWidget" name="plotWidget" native="true">
-    <property name="geometry">
-     <rect>
-      <x>0</x>
-      <y>0</y>
-      <width>800</width>
-      <height>600</height>
-     </rect>
-    </property>
-   </widget>
->>>>>>> 54a7326f98b8a17f22f682e7bddb938529e04e9f
   </widget>
  </widget>
  <layoutdefault spacing="6" margin="11"/>
