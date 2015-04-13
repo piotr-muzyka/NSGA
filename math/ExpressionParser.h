@@ -4,6 +4,7 @@
 #include <exprtk.hpp>
 #include <string>
 #include <vector>
+#include <map>
 
 typedef std::vector<double> doublesVector;
 typedef std::vector<doublesVector> doublesMatrix;
@@ -11,16 +12,15 @@ typedef std::vector<doublesVector> doublesMatrix;
 class ExpressionParser
 {
 public:
-    ExpressionParser();
+    ExpressionParser(unsigned numberOfVariables = 2);
     doublesVector createVector(double min, double step, double max);
     doublesVector createVectorWithLength(unsigned length, double min, double max);
     void parse(const std::string& expressionString);
-    double currentResult();
-    const doublesMatrix results(const doublesVector& x1Vec, const doublesVector& x2Vec);
+    double value();
 
-    double x1;
-    double x2;
+    double& operator()(const std::string& key);
 private:
+    std::map<std::string,double> x;
     exprtk::expression<double> expression;
     exprtk::parser<double> parser;
 };

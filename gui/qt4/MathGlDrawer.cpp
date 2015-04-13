@@ -21,11 +21,11 @@ void MathGlDrawer::initData()
     for(doublesVector::size_type i = 0; i != n; i++)
         for(doublesVector::size_type j = 0; j != n; j++)
         {
-            parser.x1 = xVector[i];
-            parser.x2 = xVector[j];
-            x1.SetVal(parser.x1,i,j);
-            x2.SetVal(parser.x2,i,j);
-            a.SetVal(parser.currentResult(),i,j);
+            parser("x1") = xVector[i];
+            parser("x2") = xVector[j];
+            x1.SetVal(parser("x1"),i,j);
+            x2.SetVal(parser("x2"),i,j);
+            a.SetVal(parser.value(),i,j);
         }
 }
 

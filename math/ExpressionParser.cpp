@@ -1,10 +1,16 @@
 #include "ExpressionParser.h"
+#include <assert.h>
 
-ExpressionParser::ExpressionParser() : x1(0), x2(0)
+ExpressionParser::ExpressionParser(unsigned numberOfVariables)
 {
     exprtk::symbol_table<double> symbol_table;
-    symbol_table.add_variable("x1",x1);
-    symbol_table.add_variable("x2",x2);
+    std::string key;
+    for(unsigned i = 0; i < numberOfVariables; ++i)
+    {
+        key = "x"+std::to_string(i+1);
+        x[key] = 0;
+        symbol_table.add_variable(key,x[key]);
+    }
     symbol_table.add_constants();
     expression.register_symbol_table(symbol_table);
 }
@@ -29,22 +35,13 @@ void ExpressionParser::parse(const std::string& expressionString)
     parser.compile(expressionString,expression);
 }
 
-double ExpressionParser::currentResult()
+double ExpressionParser::value()
 {
     return expression.value();
 }
 
-const doublesMatrix ExpressionParser::results(const doublesVector& x1Vec, const doublesVector& x2Vec)
+double& ExpressionParser::operator()(const std::string& key)
 {
-    doublesMatrix result(x1Vec.size(), doublesVector(x2Vec.size(), 0));
-
-    for(doublesVector::size_type i = 0; i != x1Vec.size(); i++)
-        for(doublesVector::size_type j = 0; j != x2Vec.size(); j++)
-        {
-            x1 = x1Vec[i];
-            x2 = x2Vec[j];
-            result[i][j] = expression.value();
-        }
-
-    return result;
+    assert(x.find(key) != x.end());
+    return x[key];
 }

@@ -8,6 +8,7 @@ QT       += core  gui
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
 TARGET = NSGA-II
+QMAKE_CXXFLAGS += -std=c++11
 
 TEMPLATE = app
 
