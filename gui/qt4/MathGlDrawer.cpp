@@ -17,14 +17,15 @@ void MathGlDrawer::initData()
     parser.parse(fn_string.toStdString());
 
     doublesVector xVector = parser.createVectorWithLength(n,-5,5);
-    doublesMatrix results = parser.results(xVector, xVector);
 
     for(doublesVector::size_type i = 0; i != n; i++)
         for(doublesVector::size_type j = 0; j != n; j++)
         {
-            x1.SetVal(xVector[i],i,j);
-            x2.SetVal(xVector[j],i,j);
-            a.SetVal(results[i][j],i,j);
+            parser.x1 = xVector[i];
+            parser.x2 = xVector[j];
+            x1.SetVal(parser.x1,i,j);
+            x2.SetVal(parser.x2,i,j);
+            a.SetVal(parser.currentResult(),i,j);
         }
 }
 
