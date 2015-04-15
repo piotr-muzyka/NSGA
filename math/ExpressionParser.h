@@ -12,7 +12,7 @@ typedef std::vector<doublesVector> doublesMatrix;
 class ExpressionParser
 {
 public:
-    ExpressionParser(unsigned numberOfVariables = 2);
+    ExpressionParser(unsigned numberOfVariables = 5);
     doublesVector createVector(double min, double step, double max);
     doublesVector createVectorWithLength(unsigned length, double min, double max);
     void parse(const std::string& expressionString);

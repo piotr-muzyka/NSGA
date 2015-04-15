@@ -20,7 +20,11 @@ SOURCES += main.cpp \
     math/ExpressionParser.cpp \
     gui/qt4/Qt4Window.cpp \
     gui/qt4/MainWindow.cpp \
-    gui/qt4/MathGlDrawer.cpp
+    gui/qt4/MathGlDrawer.cpp \
+    genetic_algorithm/Population.cpp \
+    genetic_algorithm/Generation.cpp \
+    genetic_algorithm/Subject.cpp \
+    genetic_algorithm/Genotype.cpp
 
 HEADERS += \
     interfaces/Gui.h \
@@ -29,7 +33,11 @@ HEADERS += \
     math/ExpressionParser.h \
     gui/qt4/Qt4Window.h \
     gui/qt4/MainWindow.h \
-    gui/qt4/MathGlDrawer.h
+    gui/qt4/MathGlDrawer.h \
+    genetic_algorithm/Population.h \
+    genetic_algorithm/Generation.h \
+    genetic_algorithm/Subject.h \
+    genetic_algorithm/Genotype.h
 
 # add new folders here
 INCLUDEPATH += interfaces/
@@ -37,5 +45,6 @@ INCLUDEPATH += gui/terminal/
 INCLUDEPATH += gui/qt4/
 INCLUDEPATH += libraries/
 INCLUDEPATH += math/
+INCLUDEPATH += genetic_algorithm/
 
 LIBS += -lmgl -lmgl-qt
