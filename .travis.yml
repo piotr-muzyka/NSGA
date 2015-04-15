@@ -1,0 +1,22 @@
+language: cpp
+before_install:
+  - sudo add-apt-repository ppa:ubuntu-toolchain-r/test -y
+  - sudo apt-get update
+ # Install QT4
+  - sudo apt-get install libqt4-dev qt4-qmake -y
+ # Change g++ version to support c++11
+  - sudo apt-get install gcc-4.9 g++-4.9 -y --force-yes
+  - sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-4.6 60 --slave /usr/bin/g++ g++ /usr/bin/g++-4.6
+  - sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-4.9 40 --slave /usr/bin/g++ g++ /usr/bin/g++-4.9
+  - sudo update-alternatives --set gcc /usr/bin/gcc-4.9
+  - g++ --version
+ # Install unittest++
+  - sudo apt-get install libunittest++-dev
+ # Create build directory
+  - mkdir build && cd build
+
+script:
+ # Build project
+  - qmake ../tests/tests.pro && make
+ # Run tests
+  - ./tests
