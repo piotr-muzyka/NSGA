@@ -2,7 +2,6 @@
 #include "ui_mainwindow.h"
 #include <mgl2/qt.h>
 #include <mgl2/surf.h>
-#include <ExpressionParser.h>
 #include <QMessageBox>
 
 MainWindow::MainWindow(QWidget *parent) :

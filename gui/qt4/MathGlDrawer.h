@@ -2,7 +2,7 @@
 #define MATHGLDRAWER_H
 
 #include <mgl2/qt.h>
-#include <ExpressionParser.h>
+#include <Expression.h>
 #include <QString>
 
 class MathGlDrawer : public mglDraw
@@ -13,7 +13,7 @@ public:
     int Draw(mglGraph* gr);
     QString fn_string;
 private:
-    ExpressionParser parser;
+    Expression parser;
     mglData a;
     mglData x1;
     mglData x2;

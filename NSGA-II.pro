@@ -17,27 +17,28 @@ FORMS += \
 
 SOURCES += main.cpp \
     gui/terminal/QtTerminal.cpp \
-    math/ExpressionParser.cpp \
     gui/qt4/Qt4Window.cpp \
     gui/qt4/MainWindow.cpp \
     gui/qt4/MathGlDrawer.cpp \
     genetic_algorithm/Population.cpp \
     genetic_algorithm/Generation.cpp \
     genetic_algorithm/Subject.cpp \
-    genetic_algorithm/Genotype.cpp
+    genetic_algorithm/Genotype.cpp \
+    math/Expression.cpp
 
 HEADERS += \
     interfaces/Gui.h \
     gui/terminal/QtTerminal.h \
     libraries/exprtk.hpp \
-    math/ExpressionParser.h \
     gui/qt4/Qt4Window.h \
     gui/qt4/MainWindow.h \
     gui/qt4/MathGlDrawer.h \
     genetic_algorithm/Population.h \
     genetic_algorithm/Generation.h \
     genetic_algorithm/Subject.h \
-    genetic_algorithm/Genotype.h
+    genetic_algorithm/Genotype.h \
+    math/Expression.h \
+    libraries/CustomAssertion.h
 
 # add new folders here
 INCLUDEPATH += interfaces/
