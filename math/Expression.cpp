@@ -53,6 +53,11 @@ double Expression::value()
 
 double& Expression::operator()(const std::string& key)
 {
+    return at(key);
+}
+
+double &Expression::at(const std::string &key)
+{
     assert(x.find(key) != x.end());
     return x[key];
 }

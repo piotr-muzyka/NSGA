@@ -13,13 +13,14 @@ class Expression
 {
 public:
     Expression(unsigned numberOfVariables = 5);
-    Expression(const Expression &e);
+    Expression(const Expression& e);
     doublesVector createVector(double min, double step, double max);
     doublesVector createVectorWithLength(unsigned length, double min, double max);
     void parse(const std::string& newExpressionString);
     double value();
 
     double& operator()(const std::string& key);
+    double& at(const std::string& key);
 private:
     std::map<std::string,double> x;
     exprtk::expression<double> expression;

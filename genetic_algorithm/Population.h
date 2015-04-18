@@ -2,15 +2,18 @@
 #define POPULATION_H
 
 #include <Generation.h>
-#include <vector>
 
 class Population
 {
 public:
-    Population();
+    Population(unsigned firstGenerationSize, ExpressionPtr newf1, ExpressionPtr newf2);
 
-    void generateGenerations(int generationNumber);
+    void generateGenerations(unsigned generationsCount);
+    unsigned generationsCount();
+    unsigned sizeOfGeneration(unsigned generationNumber);
 private:
+    ExpressionPtr f1;
+    ExpressionPtr f2;
     std::vector<Generation> generations;
 };
 

@@ -17,7 +17,8 @@ SOURCES += main.cpp \
     ../genetic_algorithm/Population.cpp \
     genetic_algorithm/TestPopulation.cpp \
     ../math/Expression.cpp \
-    math/TestExpression.cpp
+    math/TestExpression.cpp \
+    ../libraries/CustomAssertion.cpp
 
 HEADERS += \
     ../genetic_algorithm/Genotype.h \

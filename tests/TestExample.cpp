@@ -28,8 +28,8 @@ SUITE(ExampleTestSuite)
     class fooFixture : public foo
     {
     public:
-        fooFixture() { init(); }            // Fixture setup
-        ~fooFixture() { close(); }          // Fixture teardown
+        fooFixture() { init(); }            // Fixture setup - it is called on every test start
+        ~fooFixture() { close(); }          // Fixture teardown - it is called on every test end
         /* We can override original methods for testing purpose */
         std::string name() { return "fooFixture"; }
     };
