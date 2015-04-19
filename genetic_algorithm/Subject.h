@@ -6,11 +6,13 @@
 class Subject
 {
 public:
-    Subject(std::vector<double> functVariables, ExpressionPtr newf1, ExpressionPtr newf2);
+    Subject(ExpressionPtr newf1, ExpressionPtr newf2);
     Subject(const Subject& parentA, const Subject& parentB);
+    virtual ~Subject() {}
+
     double rateByF1() const;
     double rateByF2() const;
-private:
+protected:
     Genotype gen;
 };
 

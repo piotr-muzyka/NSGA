@@ -3,9 +3,8 @@
 Generation::Generation(unsigned subjectsCount, ExpressionPtr newf1, ExpressionPtr newf2)
     : f1(newf1)
     , f2(newf2)
+    , subjects(subjectsCount, Subject(f1,f2))
 {
-    std::vector<double> dummyX{0,0,0,0,0};
-    subjects.resize(subjectsCount, Subject(dummyX, f1,f2));
 }
 
 Generation Generation::produceNextGeneration()

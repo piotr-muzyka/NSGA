@@ -61,3 +61,16 @@ double &Expression::at(const std::string &key)
     assert(x.find(key) != x.end());
     return x[key];
 }
+
+double Expression::variablesCount()
+{
+    return x.size();
+}
+
+std::vector<std::string> Expression::getAllVariableKeys()
+{
+    std::vector<std::string> keys;
+    for (auto& element : x)
+        keys.push_back(element.first);
+    return keys;
+}

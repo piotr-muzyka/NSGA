@@ -10,15 +10,20 @@ typedef std::shared_ptr<Expression> ExpressionPtr;
 class Genotype
 {
 public:
-    Genotype(std::vector<double> functVariables, ExpressionPtr f1, ExpressionPtr f2);
+    Genotype(ExpressionPtr f1, ExpressionPtr f2);
     Genotype(const Genotype& genA, const Genotype& genB);
+    virtual ~Genotype() {}
 
     void mutate(unsigned mutationProbabilityInPercent);
     double rateByF1() const;
     double rateByF2() const;
-private:
+    std::vector<double> getRandomVariables(const unsigned& varaiblesCount);
+protected:
     double f1Value;
     double f2Value;
+
+    void fillWithRandomVariables(std::vector<double>& randomX);
+    void getFValues(ExpressionPtr f1, ExpressionPtr f2, std::vector<double>& x);
 };
 
 #endif // GENOTYPE_H

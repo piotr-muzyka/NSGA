@@ -1,7 +1,7 @@
 #include "Subject.h"
 
-Subject::Subject(std::vector<double> functVariables, ExpressionPtr newf1, ExpressionPtr newf2)
-    : gen(functVariables, newf1, newf2)
+Subject::Subject(ExpressionPtr newf1, ExpressionPtr newf2)
+    : gen(newf1, newf2)
 {
 }
 

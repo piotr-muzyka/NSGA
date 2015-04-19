@@ -18,7 +18,7 @@ public:
     }
 };
 
-TEST_FIXTURE(ExpressionTest, testUnknownKey)
+TEST_FIXTURE(ExpressionTest, unknownKey)
 {
     CHECK_EQUAL(0, assertion.fails());
     expr("invalidKey");
@@ -26,12 +26,29 @@ TEST_FIXTURE(ExpressionTest, testUnknownKey)
     CHECK_EQUAL(2, assertion.fails());
 }
 
-TEST_FIXTURE(ExpressionTest, testDegenarateExpressions)
+TEST_FIXTURE(ExpressionTest, degenarateExpressions)
 {
     expr.parse("");
     CHECK(isnan(expr.value()));
 }
 
+TEST_FIXTURE(ExpressionTest, getVariablesCount)
+{
+    CHECK_EQUAL(4, expr.variablesCount());
+}
+
+TEST_FIXTURE(ExpressionTest, getVariablesKeys)
+{
+    std::vector<std::string> variables = expr.getAllVariableKeys();
+    CHECK_EQUAL(4, variables.size());
+
+    CHECK_EQUAL(0, assertion.fails());
+    for(auto& key : variables)
+    {
+        expr(key);
+        CHECK_EQUAL(0, assertion.fails());
+    }
+}
 
 class ParsedExpressionTest : public ExpressionTest
 {
@@ -42,12 +59,12 @@ public:
     }
 };
 
-TEST_FIXTURE(ParsedExpressionTest, testSimpleExpression)
+TEST_FIXTURE(ParsedExpressionTest, simpleExpression)
 {
     CHECK_EQUAL(1+2+3+4, expr.value());
 }
 
-TEST_FIXTURE(ParsedExpressionTest, testExpressionCopy)
+TEST_FIXTURE(ParsedExpressionTest, expressionCopy)
 {
     Expression copiedExpr(expr);
 

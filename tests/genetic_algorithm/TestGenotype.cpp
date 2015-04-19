@@ -1,12 +1,12 @@
 #include <unittest++/UnitTest++.h>
-#include <Genotype.h>
+#include <GenotypeMock.h>
 
 class GenotypeTest
 {
 public:
     std::vector<double> x;
     ExpressionPtr f1, f2;
-    std::unique_ptr<Genotype> gen;
+    std::unique_ptr<GenotypeMock> gen;
 
     GenotypeTest()
         : x{1,2,3,4,5}
@@ -15,7 +15,7 @@ public:
     {
         f1->parse("x1+x2+x3+x4+x5");
         f2->parse("x1-x2-x3-x4-x5");
-        gen.reset(new Genotype(x,f1,f2));
+        gen.reset(new GenotypeMock(x, f1, f2));
     }
 };
 
@@ -26,7 +26,7 @@ TEST_FIXTURE(GenotypeTest, genotypeCanCopy)
 
 TEST_FIXTURE(GenotypeTest, childGenotypeCreation)
 {
-    Genotype parentA(x,f1,f2), parentB(x,f1,f2);
+    Genotype parentA(f1,f2), parentB(f1,f2);
     Genotype child(parentA, parentB);
 }
 
