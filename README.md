@@ -4,7 +4,7 @@ Non-Dominated Sorting Algorithm as Bicriterial Optimization Method with constrai
 
 ## Goals
 * Create application to solve bicriterial optimization problem with constraints (NSGA-II)
-* Allow user to input mathematical expressions (f(x1,x2)) as string
+* Allow user to input two goal functions with up to 5 variables as string ('f(x1,x2,x3,x4,x5)')
 * Allow user to define max. 5 constraints
 * Plot set expression and Pareto-optimized solution vector
 * (additionally) create GUI
