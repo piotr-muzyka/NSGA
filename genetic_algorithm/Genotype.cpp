@@ -42,9 +42,9 @@ void Genotype::fillWithRandomVariables(std::vector<double>& randomX)
 
 void Genotype::getFValues(ExpressionPtr f1, ExpressionPtr f2, std::vector<double>& x)
 {
-    int i = 0;
+    int i = -1;
     for(auto& key : f1->getAllVariableKeys())
-        f1->at(key) = f2->at(key) = x[i++];
+        f1->at(key) = f2->at(key) = x[++i];
     f1Value = f1->value();
     f2Value = f2->value();
 }

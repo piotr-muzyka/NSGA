@@ -4,12 +4,10 @@
 class SubjectTest
 {
 public:
-    std::vector<double> x;
     ExpressionPtr f1, f2;
 
     SubjectTest()
-        : x{1,2,3,4,5}
-        , f1(new Expression(5))
+        : f1(new Expression(5))
         , f2(new Expression(5))
     {
     }

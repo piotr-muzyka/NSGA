@@ -10,8 +10,8 @@ public:
 
     GenotypeTest()
         : x{1,2,3,4,5}
-        , f1(new Expression(5))
-        , f2(new Expression(5))
+        , f1(new Expression())
+        , f2(new Expression())
     {
         f1->parse("x1+x2+x3+x4+x5");
         f2->parse("x1-x2-x3-x4-x5");

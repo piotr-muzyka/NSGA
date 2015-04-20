@@ -5,12 +5,12 @@ class GenerationTest
 {
 public:
     ExpressionPtr f1, f2;
-    unsigned generationSize = 50;
+    const unsigned generationSize = 50;
     Generation generation;
 
     GenerationTest()
-        : f1(new Expression(5)),
-          f2(new Expression(5)),
+        : f1(new Expression()),
+          f2(new Expression()),
           generation(generationSize, f1, f2) {}
 };
 
