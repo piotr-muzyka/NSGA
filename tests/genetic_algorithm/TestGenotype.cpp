@@ -19,6 +19,16 @@ public:
     }
 };
 
+TEST_FIXTURE(GenotypeTest, getFenotype)
+{
+    std::vector<double> fenotype = gen->getFenotype();
+    CHECK_EQUAL(1, fenotype[0]);
+    CHECK_EQUAL(2, fenotype[1]);
+    CHECK_EQUAL(3, fenotype[2]);
+    CHECK_EQUAL(4, fenotype[3]);
+    CHECK_EQUAL(5, fenotype[4]);
+}
+
 TEST_FIXTURE(GenotypeTest, genotypeCanCopy)
 {
     Genotype copy(*gen);
@@ -28,6 +38,13 @@ TEST_FIXTURE(GenotypeTest, childGenotypeCreation)
 {
     Genotype parentA(f1,f2), parentB(f1,f2);
     Genotype child(parentA, parentB);
+
+    CHECK(!isnan(child.rateByF1()));
+    CHECK(!isnan(child.rateByF2()));
+
+    CHECK(!isinf(child.rateByF1()));
+    CHECK(!isinf(child.rateByF2()));
+
 }
 
 class GenotypeWithFValuesTest : public GenotypeTest

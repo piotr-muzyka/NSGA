@@ -14,16 +14,19 @@ public:
     Genotype(const Genotype& genA, const Genotype& genB);
     virtual ~Genotype() {}
 
-    void mutate(unsigned mutationProbabilityInPercent);
+    void mutate();
     double rateByF1() const;
     double rateByF2() const;
-    std::vector<double> getRandomVariables(const unsigned& varaiblesCount);
+    std::vector<double> getFenotype() const;
 protected:
     double f1Value;
     double f2Value;
+    std::vector<double> x;
 
-    void fillWithRandomVariables(std::vector<double>& randomX);
-    void getFValues(ExpressionPtr f1, ExpressionPtr f2, std::vector<double>& x);
+    double generateRandom(double lowerBound, double upperBound);
+    double generateRandomN(double center, double sigma);
+    void fillWithRandomVariables(std::vector<double>& randomX, double lowerBound, double upperBound);
+    void getFValues(ExpressionPtr f1, ExpressionPtr f2, std::vector<double>& variables);
 };
 
 #endif // GENOTYPE_H
