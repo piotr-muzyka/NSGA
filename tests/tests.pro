@@ -18,7 +18,8 @@ SOURCES += main.cpp \
     genetic_algorithm/TestPopulation.cpp \
     ../math/Expression.cpp \
     math/TestExpression.cpp \
-    ../libraries/CustomAssertion.cpp
+    ../libraries/CustomAssertion.cpp \
+    ../math/RandomGenerator.cpp
 
 HEADERS += \
     ../genetic_algorithm/Genotype.h \
@@ -28,7 +29,8 @@ HEADERS += \
     ../math/Expression.h \
     ../libraries/exprtk.hpp \
     ../libraries/CustomAssertion.h \
-    genetic_algorithm/GenotypeMock.h
+    genetic_algorithm/GenotypeMock.h \
+    ../math/RandomGenerator.h
 
 # add new folders here
 INCLUDEPATH += genetic_algorithm/
