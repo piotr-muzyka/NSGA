@@ -51,6 +51,11 @@ double Expression::value()
     return expression.value();
 }
 
+bool Expression::isFeasible() const
+{
+    return expression;
+}
+
 double& Expression::operator()(const std::string& key)
 {
     return at(key);
@@ -73,4 +78,9 @@ std::vector<std::string> Expression::getAllVariableKeys()
     for (auto& element : x)
         keys.push_back(element.first);
     return keys;
+}
+
+std::string Expression::getExpressionString()
+{
+    return expressionString;
 }

@@ -6,14 +6,17 @@
 class Population
 {
 public:
-    Population(unsigned firstGenerationSize, ExpressionPtr newf1, ExpressionPtr newf2);
+    Population(unsigned firstGenerationSize, Functions &newGoalFunctions, Functions &newConstraints,
+               double newLowerBound = -5, double newUpperBound = 5);
 
-    void generateGenerations(unsigned generationsCount);
+    std::vector<std::vector<double>> generateGenerations(unsigned generationsCount);
     unsigned generationsCount();
     unsigned sizeOfGeneration(unsigned generationNumber);
 private:
-    ExpressionPtr f1;
-    ExpressionPtr f2;
+    Functions* goalFunctions;
+    Functions* constraints;
+    double lowerBound;
+    double upperBound;
     std::vector<Generation> generations;
 };
 

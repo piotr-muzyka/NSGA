@@ -4,15 +4,13 @@
 #ifndef UT
     #include <assert.h>
 #else
-    void assert(bool expression);
+    #include <unittest++/UnitTest++.h>
 
-    class AssertSpy
+    # define assert(EX) (void)((EX) || (_assert(#EX, __FILE__, __LINE__),0))
+    inline void _assert(const char *msg, const char *file, int line)
     {
-    public:
-        static unsigned failedCount;
-        void reset() { failedCount = 0; }
-        unsigned fails() { return failedCount; }
-    };
+        throw UnitTest::AssertException(msg,file,line);
+    }
 #endif
 
 #endif // CUSTOMASSERTION_H

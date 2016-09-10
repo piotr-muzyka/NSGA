@@ -1,20 +1,28 @@
 #include "Population.h"
 #include <CustomAssertion.h>
 
-Population::Population(unsigned firstGenerationSize, ExpressionPtr newf1, ExpressionPtr newf2)
-    : f1(newf1),
-      f2(newf2),
-      generations(1, Generation(firstGenerationSize, f1, f2))
+Population::Population(unsigned firstGenerationSize, Functions& newGoalFunctions,
+                       Functions &newConstraints, double newLowerBound, double newUpperBound)
+    : goalFunctions(&newGoalFunctions)
+    , constraints(&newConstraints)
+    , lowerBound(newLowerBound)
+    , upperBound(newUpperBound)
+    , generations(1, Generation(firstGenerationSize, *goalFunctions, *constraints, lowerBound,
+                                upperBound))
 {
 }
 
-void Population::generateGenerations(unsigned generationsCount)
+std::vector<std::vector<double>> Population::generateGenerations(unsigned generationsCount)
 {
     assert(generations.size() >= 1);
-    generations.resize(1, Generation(sizeOfGeneration(1), f1, f2));
+    generations.resize(1,
+            Generation(sizeOfGeneration(1), *goalFunctions, *constraints, lowerBound, upperBound)
+        );
     for (unsigned i = 0; i < generationsCount - 1; ++i)
         generations.push_back(generations[i].produceNextGeneration());
     generations.shrink_to_fit();
+
+    return generations[generations.size() - 1].getFirstFront();
 }
 
 unsigned Population::generationsCount()

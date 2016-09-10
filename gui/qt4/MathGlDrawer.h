@@ -9,14 +9,22 @@ class MathGlDrawer : public mglDraw
 {
 public:
     MathGlDrawer();
-    void initData();
+
+    void initData(doublesMatrix results);
     int Draw(mglGraph* gr);
-    QString fn_string;
 private:
     Expression parser;
     mglData a;
-    mglData x1;
-    mglData x2;
+    mglData f1;
+    mglData f2;
+    mglData g1;
+//    mglData g2;
+//    mglData g3;
+//    mglData g4;
+//    mglData g5;
+
+
+    doublesMatrix results;
 };
 
 #endif // MATHGLDRAWER_H

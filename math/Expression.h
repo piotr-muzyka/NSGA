@@ -1,10 +1,11 @@
-#ifndef EXPRESSIONPARSER_H
-#define EXPRESSIONPARSER_H
+#ifndef EXPRESSION_H
+#define EXPRESSION_H
 
 #include <exprtk.hpp>
 #include <string>
 #include <vector>
 #include <map>
+#include <memory>
 
 typedef std::vector<double> doublesVector;
 typedef std::vector<doublesVector> doublesMatrix;
@@ -19,10 +20,12 @@ public:
     void parse(const std::string& newExpressionString);
     double value();
 
+    bool isFeasible() const;
     double& operator()(const std::string& key);
     double& at(const std::string& key);
     double variablesCount();
     std::vector<std::string> getAllVariableKeys();
+    std::string getExpressionString();
 private:
     std::map<std::string,double> x;
     exprtk::expression<double> expression;
@@ -30,4 +33,4 @@ private:
     exprtk::parser<double> parser;
 };
 
-#endif // EXPRESSIONPARSER_H
+#endif // EXPRESSION_H

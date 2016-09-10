@@ -2,42 +2,46 @@
 #include <mgl2/surf.h>
 #include <QMessageBox>
 #include <iostream>
+#include <iomanip>
 
 MathGlDrawer::MathGlDrawer()
 {
 }
 
-void MathGlDrawer::initData()
+void MathGlDrawer::initData(doublesMatrix results)
 {
-    unsigned n=100;
-    x1.Create(n,n);
-    x2.Create(n,n);
-    a.Create(n,n);
+    std::sort(results.begin(), results.end());
+    f1.Create(results.size());
+    f2.Create(results.size());
 
-    parser.parse(fn_string.toStdString());
-
-    doublesVector xVector = parser.createVectorWithLength(n,-5,5);
-
-    for(doublesVector::size_type i = 0; i != n; i++)
-        for(doublesVector::size_type j = 0; j != n; j++)
-        {
-            parser("x1") = xVector[i];
-            parser("x2") = xVector[j];
-            x1.SetVal(parser("x1"),i,j);
-            x2.SetVal(parser("x2"),i,j);
-            a.SetVal(parser.value(),i,j);
-        }
+    const auto columnWidth = 15;
+    const auto columnsCount = results[0].size();
+    std::cout << std::setw(columnWidth) << std::left << "f1"
+              << std::setw(columnWidth) << std::left << "f2";
+    for(unsigned i = 2; i < columnsCount; ++i)
+              std::cout << std::setw(columnWidth) << std::left << "x"+std::to_string(i-1);
+    std::cout << std::endl
+              << std::setfill('-') << std::setw(columnWidth*columnsCount) << "-"
+              << std::setfill(' ') << std:: endl;
+    for(unsigned i = 0; i != results.size(); i++)
+    {
+        f1.SetVal(results[i][0],i);
+        f2.SetVal(results[i][1],i);
+        for(auto x : results[i])
+            std::cout << std::setw(columnWidth) << std::left << x;
+        std::cout << std::endl;
+    }
 }
 
 int MathGlDrawer::Draw(mglGraph* gr)
 {
-    initData();
-    gr->Title("Surf plot");
-    gr->Rotate(50,60);
+    gr->Title("NSGA-II");
     gr->Box();
-    gr->SetRanges(x1,x2,a);
+    gr->SetRanges(f1,f2);
     gr->Axis();
-    gr->Surf(x1,x2,a);
+    gr->Plot(f1,f2," o");
+    gr->Label('y',"f2",0);
+    gr->Label('x',"f1",0);
 
     return 0;
 }

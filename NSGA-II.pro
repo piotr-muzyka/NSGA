@@ -23,24 +23,34 @@ SOURCES += main.cpp \
     genetic_algorithm/Population.cpp \
     genetic_algorithm/Generation.cpp \
     genetic_algorithm/Subject.cpp \
-    genetic_algorithm/Genotype.cpp \
     math/Expression.cpp \
-    math/RandomGenerator.cpp
+    genetic_algorithm/Fenotype.cpp \
+    math/Functions.cpp \
+    math/RandomGenerator.cpp \
+    genetic_algorithm/Nsga.cpp \
+    genetic_algorithm/Front.cpp \
+    genetic_algorithm/Fronts.cpp
 
 HEADERS += \
     interfaces/Gui.h \
     gui/terminal/QtTerminal.h \
     libraries/exprtk.hpp \
     gui/qt4/Qt4Window.h \
-    gui/qt4/MainWindow.h \
     gui/qt4/MathGlDrawer.h \
     genetic_algorithm/Population.h \
     genetic_algorithm/Generation.h \
     genetic_algorithm/Subject.h \
-    genetic_algorithm/Genotype.h \
     math/Expression.h \
     libraries/CustomAssertion.h \
-    math/RandomGenerator.h
+    genetic_algorithm/Fenotype.h \
+    math/Functions.h \
+    math/RandomGenerator.h \
+    interfaces/Core.h \
+    genetic_algorithm/Nsga.h \
+    genetic_algorithm/Front.h \
+    genetic_algorithm/Fronts.h \
+    gui/qt4/QDebugStream.h \
+    gui/qt4/MainWindow.h
 
 # add new folders here
 INCLUDEPATH += interfaces/
